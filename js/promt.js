@@ -39,3 +39,4 @@ Congratulate the player on guessing the word (Привітайте гравця 
 
 // #1: Choose random word
 var words = ["javascript", "monkey", "amazing", "pancake"];
+var word = words[Math.floor(Math.random() * words.length)];
