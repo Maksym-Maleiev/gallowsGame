@@ -57,3 +57,6 @@ while (remainingLetters > 0) {
   // Update answerArray and remainingLetters
   // for every correct guess
 }
+
+// #3.1: Show player's progress
+alert(answerArray.join(" "));
