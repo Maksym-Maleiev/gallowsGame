@@ -85,3 +85,6 @@ for (var j = 0; j < word.length; j++) {
     remainingLetters--;
   }
 }
+
+alert(answerArray.join(" "));
+alert("Good job! The answer was " + word);
