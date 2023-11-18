@@ -48,3 +48,12 @@ for (var i = 0; i < word.length; i++) {
 }
 
 var remainingLetters = word.length;
+
+// #3: Coding game
+while (remainingLetters > 0) {
+  // Game code goes here
+  // Show the player their progress
+  // Take input from the player
+  // Update answerArray and remainingLetters
+  // for every correct guess
+}
