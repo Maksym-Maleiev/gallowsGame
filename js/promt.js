@@ -77,3 +77,11 @@ if (guess === null) {
 } else {
   // Update the game state with the guess
 }
+
+// #3.4: Update game
+for (var j = 0; j < word.length; j++) {
+  if (word[j] === guess) {
+    answerArray[j] = guess;
+    remainingLetters--;
+  }
+}
