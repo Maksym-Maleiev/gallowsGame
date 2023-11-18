@@ -13,7 +13,7 @@ if (likesCats) {
 // alert
 alert("JavaScript is awesome!");
 
-// pick
+// pseudo-code
 /*
 Pick a random word (Виберіть навмання слово)
 
@@ -34,5 +34,5 @@ While the word has not been guessed (Поки слово не вгадали) {
   }
 }
 
-Congratulate the player on guessing the word
+Congratulate the player on guessing the word (Привітайте гравця з вгадуванням слова)
 */
