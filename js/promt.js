@@ -75,10 +75,10 @@ if (guess === null) {
 } else if (guess.length !== 1) {
   alert("Please enter a single letter.");
 } else {
-  // Update the game state with the guess
+  // Update the game state with the guess (3.4)
 }
 
-// #3.4: Update game
+// #3.4: Update the game state
 for (var j = 0; j < word.length; j++) {
   if (word[j] === guess) {
     answerArray[j] = guess;
