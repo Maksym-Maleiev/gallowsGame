@@ -70,3 +70,11 @@ while (remainingLetters > 0) {
 alert(answerArray.join(" "));
 
 // #3.2: React to the data entered by the player
+var guess = prompt("Guess a letter, or click Cancel to stop playing.");
+if (guess === null) {
+  break;
+} else if (guess.length !== 1) {
+  alert("Please enter a single letter.");
+} else {
+  // Update the game state with the guess
+}
