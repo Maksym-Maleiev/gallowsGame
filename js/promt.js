@@ -24,8 +24,8 @@ While the word has not been guessed (Поки слово не вгадали) {
   If the player wants to quit the game {
     Quit the game
   }
-  Else if the guess is not a single letter {
-    Tell the player to pick a single letter
+  Else if the guess is not a single letter (Інакше, якщо відгадка не одна буква) {
+    Tell the player to pick a single letter (Скажіть гравцеві вибрати одну букву)
   }
   Else {
     If the guess is in the word {
