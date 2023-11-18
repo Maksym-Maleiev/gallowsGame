@@ -43,3 +43,8 @@ var word = words[Math.floor(Math.random() * words.length)];
 
 // #2: Create an array of answers
 var answerArray = [];
+for (var i = 0; i < word.length; i++) {
+  answerArray[i] = "_";
+}
+
+var remainingLetters = word.length;
