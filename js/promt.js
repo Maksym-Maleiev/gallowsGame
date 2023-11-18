@@ -28,8 +28,8 @@ While the word has not been guessed (Поки слово не вгадали) {
     Tell the player to pick a single letter (Скажіть гравцеві вибрати одну букву)
   }
   Else {
-    If the guess is in the word {
-      Update the player's progress with the guess
+    If the guess is in the word (Якщо відгадка в слові) {
+      Update the player's progress with the guess (Оновіть прогрес гравця за допомогою припущення)
     }
   }
 }
