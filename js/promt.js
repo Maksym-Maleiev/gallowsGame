@@ -9,3 +9,6 @@ if (likesCats) {
 } else {
   console.log("Yeah, that's fine. You're still cool!");
 }
+
+// alert
+alert("JavaScript is awesome!");
