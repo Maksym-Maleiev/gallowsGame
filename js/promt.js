@@ -56,6 +56,7 @@ for (var i = 0; i < word.length; i++) {
 var remainingLetters = word.length;
 
 // #3: Coding game
+/*
 while (remainingLetters > 0) {
   // Game code goes here
   // Show the player their progress
@@ -63,6 +64,9 @@ while (remainingLetters > 0) {
   // Update answerArray and remainingLetters
   // for every correct guess
 }
+*/
 
 // #3.1: Show player's progress
 alert(answerArray.join(" "));
+
+// #3.2: React to the data entered by the player
