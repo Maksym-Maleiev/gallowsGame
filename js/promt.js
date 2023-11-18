@@ -1,2 +1,2 @@
-var name = promt("What's your name?");
+var name = prompt("What's your name?");
 console.log("Hello " + name);
